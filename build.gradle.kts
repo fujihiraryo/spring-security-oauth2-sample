@@ -17,6 +17,11 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
+	implementation("org.webjars:jquery:3.4.1")
+	implementation("org.webjars:bootstrap:4.3.1")
+	implementation("org.webjars:webjars-locator-core")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
